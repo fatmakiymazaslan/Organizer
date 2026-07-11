@@ -950,12 +950,12 @@ function reservationModalHTML() {
             </div>
             <div class="field">
               <label for="amount">Anlaşılan tutar</label>
-              <input id="amount" name="amount" type="text" inputmode="numeric" pattern="[0-9]*" value="${escapeAttr(item.amount)}" placeholder="30.000" required />
+              <input id="amount" name="amount" type="text" inputmode="numeric" pattern="[0-9.]*" value="${escapeAttr(item.amount)}" placeholder="30.000" required />
             </div>
             <div class="field">
               <label for="paidAmount">Ödenen / kapora</label>
               <div class="field-with-action">
-                <input id="paidAmount" name="paidAmount" type="text" inputmode="numeric" pattern="[0-9]*" value="${escapeAttr(item.paidAmount)}" placeholder="0" />
+                <input id="paidAmount" name="paidAmount" type="text" inputmode="numeric" pattern="[0-9.]*" value="${escapeAttr(item.paidAmount)}" placeholder="0" />
                 <button class="small-button" type="button" data-action="mark-full-paid">Tamamı ödendi</button>
               </div>
             </div>
@@ -1027,7 +1027,7 @@ function priceModalHTML() {
             </div>
             <div class="field">
               <label for="priceAmount">Fiyat</label>
-              <input id="priceAmount" name="amount" type="text" inputmode="numeric" pattern="[0-9]*" value="${escapeAttr(item.amount)}" placeholder="30.000" required />
+              <input id="priceAmount" name="amount" type="text" inputmode="numeric" pattern="[0-9.]*" value="${escapeAttr(item.amount)}" placeholder="30.000" required />
             </div>
           </div>
         </div>
