@@ -1,0 +1,41 @@
+{
+  "name": "1453 Party House",
+  "short_name": "1453 PH",
+  "description": "1453 Party House rezervasyon ve fiyat takip uygulaması.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f6f1",
+  "theme_color": "#0b3d38",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
